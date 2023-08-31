@@ -1,0 +1,25 @@
+git clone https://github.com/thizinrodrigues/projetoTeste.git //comando puxa repositorio remoto do meu github para maquina
+
+code projetoTeste // comando abre o o vscode pelo cmd prompt de comando
+
+git remote -v // verificar se o projeto local esta associado a um projeto remoto
+
+git pull // atualiza repositorio local com base no repositoio remoto
+
+git status // verifica o estado dos arquivos no repositorio local
+
+git add // adiciona os arquivos relacionados para o stage **OBS prepara os arquivos para o commit
+
+git commit // gera uma nova versão no repositorio local
+
+git push // envia a nova versão no repositorio remoto.
+
+git checkout - b *nova_branch* // Cria uma nova ramificação
+
+git push -u origin Exemplo*login* // Cria uma branch e sua oriem no repositorio remoto
+
+git branch //verifica as branch existentes localmente
+
+dir /a .git //mostra os diretorios ocultos com extensão ponto git no prompt de comando
+
+git checkout  *Nome da branch* // Acessa uma nova branch
